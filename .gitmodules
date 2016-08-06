@@ -1,0 +1,3 @@
+[submodule "pyaes"]
+	path = pyaes
+	url = https://github.com/ricmoo/pyaes
