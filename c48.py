@@ -1,0 +1,1 @@
+print("Challenge 48 was a small tweak of challenge 47")
