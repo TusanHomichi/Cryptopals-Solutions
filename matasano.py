@@ -1,9 +1,12 @@
 from base64 import b64encode
 import random
 import os
-import pyaes
 import struct
 import hashlib
+import sys
+
+sys.path.insert(0,'./pyaes') #Hack to let pyaes be a submodule
+import pyaes
 
 def hex2bytes(s):
 	return bytes([int(s[i:i+2],16) for i in range(0,len(s),2)])
